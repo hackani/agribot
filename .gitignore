@@ -1,21 +1,21 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/agribot/node_modules
-/agribot-admin/node_modules
+agribot/node_modules
+agribot-admin/node_modules
 /.pnp
 .pnp.js
 .yarn/install-state.gz
 
 # testing
-/agribot/coverage
-/agribot-admin/coverage
+agribot/coverage
+agribot-admin/coverage
 
 # next.js
-/agribot/.next/
-/agribot-admin/.next/
-/agribot/out/
-/agribot-admin/out/
+agribot/.next/
+agribot-admin/.next/
+agribot/out/
+agribot-admin/out/
 
 # production
 /agribot/build
@@ -26,8 +26,8 @@
 *.pem
 
 # debug
-/agribot/npm-debug.log*
-/agribot-admin/npm-debug.log*
+agribot/npm-debug.log*
+agribot-admin/npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
@@ -36,14 +36,14 @@ yarn-error.log*
 /agribot-admin/.env*.local
 
 # vercel
-/agribot/.vercel
-/agribot-admin/.vercel
+agribot/.vercel
+agribot-admin/.vercel
 
 # typescript
-/agribot/*.tsbuildinfo
-/agribot-admin/*.tsbuildinfo
-/agribot/next-env.d.ts
-/agribot-admin/next-env.d.ts
+agribot/*.tsbuildinfo
+agribot-admin/*.tsbuildinfo
+agribot/next-env.d.ts
+agribot-admin/next-env.d.ts
 
-/agribot/.gitignore
-/agribot-admin/.gitignore
+agribot/.gitignore
+agribot-admin/.gitignore
